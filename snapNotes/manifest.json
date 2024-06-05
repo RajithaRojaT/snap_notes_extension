@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Snap Notes",
+    "version": "1.0",
+    "description": "To take a quick notes",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "snap_notes.html",
+        "default_icon": {
+            "16": "images/16image.png",
+            "48": "images/48image.png",
+            "128": "images/128image.png"
+        }
+    }
+}

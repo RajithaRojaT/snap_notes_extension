@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    color: rgb(137, 14, 120);
+    align-items: center;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    padding: 10px;
+}
+
+
+textarea {
+    background-color: rgb(249, 236, 249);
+    width: 100%;
+    height: 200px;
+    font-size: 14px;
+    padding: 10px;
+    align-items: center;
+    border-color: rgb(137, 14, 120);
+    outline-color: rgb(137, 14, 120);
+    margin-top: 15px;
+}
+
+button {
+    color: white;
+    background-color: rgb(137, 14, 120);
+    width: 100;
+    height: 40;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(104, 3, 67);
+}
+
+.clear,
+.cancel {
+    margin-left: 15px;
+}
+
+button.clicked {
+    background-color: green;
+    color: white;
+}
